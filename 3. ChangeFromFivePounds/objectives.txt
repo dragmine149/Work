@@ -1,0 +1,10 @@
+- Store list of items in shop (Let user input items?)
+- Display all items to user
+- User selects an item
+- Budget: £5
+
+
+- Program outputs how much can be brought for £5 and the change
+
+- Random quanity that fits in the £5 Budget
+- User enters ammount left over (X.YZ)
