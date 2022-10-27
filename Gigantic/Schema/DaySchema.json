@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "properties": {
+        "Lesson 1": {
+            "description": "Information about lesson in that period",
+            "type": "object",
+            "$ref": "Lessonschema.json"
+        },
+        "Lesson 2": {
+            "description": "Information about lesson in that period",
+            "type": "object",
+            "$ref": "Lessonschema.json"
+        },
+        "Lesson 3": {
+            "description": "Information about lesson in that period",
+            "type": "object",
+            "$ref": "Lessonschema.json"
+        },
+        "Lesson 4": {
+            "description": "Information about lesson in that period",
+            "type": "object",
+            "$ref": "Lessonschema.json"
+        },
+        "Lesson 5": {
+            "description": "Information about lesson in that period",
+            "type": "object",
+            "$ref": "Lessonschema.json"
+        }
+    }
+}

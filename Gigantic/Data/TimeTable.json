@@ -1,0 +1,138 @@
+{
+    "$schema": "../Schema/TTschema.json",
+    "Monday": {
+        "Lesson 1": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 2": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 3": {
+            "Lesson": "Computer Science",
+            "Room": "G49",
+            "Teacher": "PTE"
+        },
+        "Lesson 4": {
+            "Lesson":"Computer Science",
+            "Room": "G49",
+            "Teacher": "PTE"
+        },
+        "Lesson 5": {
+            "Lesson": "IT",
+            "Room": "G49",
+            "Teacher": "IKN"
+        }
+    },
+    "Tuesday": {
+        "Lesson 1": {
+            "Lesson": "Study",
+            "Room": "BLIB",
+            "Teacher": "KGA"
+        },
+        "Lesson 2": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 3": {
+            "Lesson": "Maths",
+            "Room": "G02",
+            "Teacher": "ZPA"
+        },
+        "Lesson 4": {
+            "Lesson": "Maths",
+            "Room": "G04",
+            "Teacher": "DKA"
+        },
+        "Lesson 5": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        }
+    },
+    "Wednesday": {
+        "Lesson 1": {
+            "Lesson": "Computer Science",
+            "Room": "G49",
+            "Teacher": "AJA"
+        },
+        "Lesson 2": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 3": {
+            "Lesson": "IT",
+            "Room": "G49",
+            "Teacher": "AJA"
+        },
+        "Lesson 4": {
+            "Lesson": "IT",
+            "Room": "G49",
+            "Teacher": "AJA"
+        },
+        "Lesson 5": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        }
+    },
+    "Thursday": {
+        "Lesson 1": {
+            "Lesson": "Maths",
+            "Room": "G02",
+            "Teacher": "ZPA"
+        },
+        "Lesson 2": {
+            "Lesson": "Maths",
+            "Room": "G04",
+            "Teacher": "DKA"
+        },
+        "Lesson 3": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 4": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 5": {
+            "Lesson": "Computer Science",
+            "Room": "G49",
+            "Teacher": "AJA"
+        }
+    },
+    "Friday": {
+        "Lesson 1": {
+            "Lesson": "IT",
+            "Room": "G49",
+            "Teacher": "IKN"
+        },
+        "Lesson 2": {
+            "Lesson": "IT",
+            "Room": "G49",
+            "Teacher": "IKN"
+        },
+        "Lesson 3": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 4": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        },
+        "Lesson 5": {
+            "Lesson": "",
+            "Room": "",
+            "Teacher": ""
+        }
+    }
+}

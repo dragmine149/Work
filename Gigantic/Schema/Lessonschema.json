@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "properties": {
+        "Lesson": {
+            "description": "Name of a lesson",
+            "type": "string"
+        },
+        "Room": {
+            "description": "Where the lesson is",
+            "type": "string"
+        },
+        "Teacher": {
+            "description": "Who teachs the lesson",
+            "type": "string"
+        }
+    }
+}

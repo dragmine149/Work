@@ -1,0 +1,34 @@
+{
+    "$schema": "http://json-schema.org/schema",
+    "title": "Timetable",
+    "description": "A timetable consisting of 5 lessons per day.",
+    "type": "object",
+    "properties": {
+        "Monday": {
+            "description": "Lessons on monday",
+            "type": "object",
+            "$ref": "DaySchema.json"
+        },
+        "Tuesday": {
+            "description": "Lessons on Tuesday",
+            "type": "object",
+            "$ref": "DaySchema.json"
+        },
+        "Wednesday": {
+            "description": "Lessons on Wednesday",
+            "type": "object",
+            "$ref": "DaySchema.json"
+        },
+        "Thursday": {
+            "description": "Lessons on Thursday",
+            "type": "object",
+            "$ref": "DaySchema.json"
+        },
+        "Friday": {
+            "description": "Lessons on Friday",
+            "type": "object",
+            "$ref": "DaySchema.json"
+        }
+    },
+    "required": [ "Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+}
