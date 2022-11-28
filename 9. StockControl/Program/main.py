@@ -1,114 +1,173 @@
 import csv
-import os
-import sys
+import ui
 
-class Load:
+
+class UI(ui.ui):
+    """Stores information about the ui really.
+    """
+
     def __init__(self) -> None:
-        pass
-    
-    def ReadData(self):
-        """Read the data
+        """Declaries variables and other ui related stuff
         """
-        with open("stock.csv", "r", encoding="utf-8") as f:
+        super().__init__("Stock Control")
+
+        # variables
+        self.id = ui.tk.StringVar(self.canvas)
+        self.name = ui.tk.StringVar(self.canvas)
+        self.price = ui.tk.StringVar(self.canvas)
+        self.quantity = ui.tk.StringVar(self.canvas)
+
+        # frames
+        self.secEditFrm = self.CreateFrame(0, 1)
+        self.editFrm = self.CreateFrame(0, 2)
+        self.infoFrm = self.CreateFrame(0, 1)
+        self.itemFrm = self.CreateFrame(0, 0)
+
+        # hide frames
+        self.ChangeState({"Element": self.infoFrm}, False)
+        self.ChangeState({"Element": self.editFrm}, False)
+        self.ChangeState({"Element": self.secEditFrm}, False)
+
+    def MakeUI(self):
+        """Make all the labels and text boxes for the ui
+        """
+        self.AddLabel(
+            "", textVar=self.id, row=0, frame=self.infoFrm, sticky='w', image=None)
+        self.AddLabel(
+            "", textVar=self.name, row=1, frame=self.infoFrm, sticky='w', image=None)
+        self.AddLabel(
+            "", textVar=self.price, row=2, frame=self.infoFrm, sticky='w', image=None)
+        self.AddLabel(
+            "", textVar=self.quantity, row=3, frame=self.infoFrm, sticky='w', image=None)
+
+        self.AddLabel("", textVar=self.id, row=0,
+                         frame=self.secEditFrm, sticky='w', image=None)
+        self.AddTexBox(self.name, 1, frame=self.secEditFrm, sticky='w')
+        self.AddTexBox(self.price, 2, frame=self.secEditFrm, sticky='w')
+        self.AddTexBox(self.quantity, 3, frame=self.secEditFrm, sticky='w')
+
+        self.AddButton("Quit", self.canvas.quit, 0, 0,
+                          frame=self.itemFrm, callbackArgs=False)
+
+    def ShowUI(self):
+        """Run the mainloop so that the ui is shown and is listening for responses
+        """
+        self.canvas.mainloop()
+
+
+class main(UI):
+    def __init__(self) -> None:
+        """Set up the UI class, and other requirements for this class
+        """
+        super().__init__()
+        self.data = []
+        self.fields = None
+
+        self.visible = None
+
+
+    def __Read(self):
+        """Read the file and use the data accordingly
+        """
+        with open("stock.csv", "r") as f:
             reader = csv.DictReader(f)
-            self.headers = reader.fieldnames
-            
+            self.fields = reader.fieldnames
+
             self.data = []
             for item in reader:
                 self.data.append(item)
-    
-    def WriteData(self, index, header, data):
-        """Write the data
 
-        Args:
-            index (_type_): The item index
-            header (_type_): The item info
-            data (_type_): The data of the item
+    def __Save(self):
+        """Write the data back to the file
         """
-        self.data[index][header] = data
-
-        with open("stock.csv", "w", encoding="utf-8") as f:
-            writer = csv.DictWriter(f, self.headers)
+        with open("stock.csv", "w") as f:
+            writer = csv.DictWriter(f, self.fields)
             writer.writeheader()
             writer.writerows(self.data)
-    
-    def GetItem(self):
-        """Get the user input from a list of items"""
-        # Can do a while true loop as we return
-        while True:
-            searchItem = input("Please enter the name of the item you want to search for (-1: list, 0 to exit): ")
-            
-            # Show a list of all the items
-            if searchItem == "-1":
-                data = ""
-                for item in self.data:
-                    data += item.get("name") + "\n"
-                print(f"""
-Items:
-{data}""")
-            
-            # Exit the program
-            if searchItem == "0":
-                sys.exit("Thank you for using this program")
-            
-            # Get the item info from the input
-            for index, item in enumerate(self.data):
-                if item.get("name") == searchItem:
-                    self.index = index
-                    return item
-    
-    def ShowData(self):
-        """Show a list of items formatted nicely
-        """
-        item = self.GetItem()
-        print("-" * os.get_terminal_size().columns)
-        
-        print(f"""
-{"ID":10}: {item.get("id")}
-{"NAME":10}: {item.get("name")}
-{"Cost":10}: £{item.get("cost")}
-{"Quantity":10}: {item.get("quantity")}
-""")
-        
-        print("-" * os.get_terminal_size().columns)
-        
-    def EditData(self):
-        """Allow the user to edit data in the csv file
 
-        Returns:
-            _type_: False to choose a different item, quit to quit. nothing to carry on.
+    def BtnCallback(self, info):
+        """Callback function for argument click
+
+        Args:
+            info (string): The name of the button clicked
         """
-        edit = None
-        while not edit:
-            edit = input("Please enter the value you want to change (0 to choose a different item, 1 to quit): ")
-            
-            if edit == 0:
-                return False
-            
-            if edit == 1:
-                sys.exit("Thank you for using this program")
-            
-            # check if it's a valid item
-            if edit not in self.headers:
-                print("Please enter a valid value to edit!")
-                edit = None
-                self.ShowData()
-                continue
-            
-            value = input(f"Please enter the new value for {edit}: ")
-            self.WriteData(self.index, edit, value)
-            print("Saving....")
-            self.ShowData()
-        
-    
+        item = None
+        for _, row in enumerate(self.data):
+            if row.get("name") == info:
+                item = row
+
+        # Set the variables to the desginated infomation
+        self.id.set(f"{'ID':15} : {item.get('id'):}")
+        self.name.set(f"{'Name':11} : {item.get('name')}")
+        self.price.set(f"{'Price':13} : £{item.get('cost')}")
+        self.quantity.set(f"{'Quantity':10} : {item.get('quantity')}")
+
+        # Change the state of active ui.
+        self.ChangeState({"Element": self.infoFrm, "row": 0, "column": 1})
+        self.ChangeState({"Element": self.editFrm, "row": 0, "column": 2})
+
+        self.visible = item
+
+    def OnEdit(self, *_):
+        """Change the state of the edit ui if the user has requested to edit the data
+        """
+        self.ChangeState({"Element": self.infoFrm}, False)
+        self.ChangeState({"Element": self.secEditFrm, "row": 0, "column": 1})
+
+    def OnEndEdit(self, *_):
+        """Callback when the user requests to save the data they edited.
+        """
+        self.ChangeState({"Element": self.secEditFrm}, False)
+        self.ChangeState({"Element": self.infoFrm, "row": 0, "column": 1})
+
+        # Split the name up to get the name
+        name = self.name.get()
+        name = name.split(":")[1]
+        name = name[1:]
+
+        # Split the cost up to get the cost
+        cost = self.price.get()
+        cost = cost.split(":")[1]
+        cost = cost[2:]
+
+        # Split the quantity up to get the quantity
+        quantity = self.quantity.get()
+        quantity = quantity.split(":")[1]
+        quantity = quantity[1:]
+
+        # Update the data in the array and save it
+        info = {
+            "id": self.visible.get("id"),
+            "name": name,
+            "cost": float(cost),
+            "quantity": int(quantity)
+        }
+        self.data[int(self.visible.get("id")) - 1] = info
+
+        self.__Save()
+
+    def MakeUI(self):
+        """Outer function to use custom callbacks and self.data
+        """
+        for rowIndex, row in enumerate(self.data):
+            self.AddButton(row.get("name"), self.BtnCallback,
+                              rowIndex + 1, 0, callbackArgs=True, frame=self.itemFrm)
+
+        self.AddButton("Edit", self.OnEdit,
+                          0, 0, columnspan=2, frame=self.editFrm)
+
+        self.AddButton("Save", self.OnEndEdit,
+                          2, 0, columnspan=2, frame=self.editFrm)
+        return super().MakeUI()
+
+
     def main(self):
-        """main loop
+        """Main function, just to have all of the other functions join together.
         """
-        while True:
-            self.ReadData()
-            self.ShowData()
-            self.EditData()
+        self.__Read()
+        self.MakeUI()
+        self.ShowUI()
 
 if __name__ == "__main__":
-    ld = Load()
-    ld.main()
+    m = main()
+    m.main()

@@ -5,8 +5,7 @@ A program to show the stock that is stored in a csv file. Also lets the user edi
 ## Objectives
 
 - [X] Read from csv file
-- [X] Make csv file into list
-- [X] Show items in csv file
-- [X] Show information about item in csv file
-- [X] Edit a specific file in the csv file
-- [X] Get any item in the csv file
+- [X] Make button for each csv entry
+- [X] Button opens up new pane, with information about selected item
+- [X] Option to edit selected item
+- [X] Save selected item back into file
