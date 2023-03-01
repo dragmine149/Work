@@ -1,0 +1,10 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,Loading (Generating character),...,...,/\,/\,1,1,/\,/\,/\,/\,/\,/\
+1,Loading (Generating world),...,...,/\,/\,2,2,/\,/\,/\,/\,/\,/\
+2,Loading (Generating monsters),...,Could you just hurry up please?,/\,/\,3,4,/\,/\,/\,/\,/\,/\
+3,Loading (Generating structures),...,Could you just hurry up please?,/\,/\,8,4,/\,/\,/\,/\,/\,/\
+4,Just wait ok.,...,*sigh* fine,/\,/\,8,5,/\,/\,/\,/\,/\,/\
+5,Loading (Generating items),...,still?,/\,/\,8,6,/\,/\,/\,/\,/\,/\
+6,Well if you don't wait,...,ok i'll wait now...,/\,/\,8,7,/\,/\,/\,/\,/\,/\
+7,Loading (Saving data),...,...,/\,/\,8,8,/\,/\,/\,/\,/\,/\
+8,Loaded!,...,YAY,/\,/\,ER,ER,/\,/\,/\,/\,/\,/\

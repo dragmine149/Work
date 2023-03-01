@@ -1,0 +1,8 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,A crossroad again? Underground? Fun...,go north,go east,go south,go west,1,2,3,4,+BHealth,+BStrength,+NBHealth,+NBStrength
+1,As you head forwards you fell different. Something changed about you for the better,continue,/\,/\,/\,EUH1,/\,/\,/\,/\,/\,/\,/\
+2,As you head right you fell different. Suddenly you fell the urge to break a hole in the wall.,Break hole,Resist,/\,/\,5,EUH5,/\,/\,/\,+NBStrength,/\,/\
+3,As you head south you don't fell as well. Take a break?,Take a break,continue,/\,/\,6,EUH3,/\,/\,+BHealth,/\,/\,/\
+4,As you head west you fell lighter. You are struggling to even pick up yourself,Continue,/\,/\,/\,EUH4,/\,/\,/\,/\,/\,/\,/\
+5,After breaking the hole in the wall you reliase you have more strength to help pick up some items... You continue onwards,Continue,/\,/\,/\,EUH5,/\,/\,/\,/\,/\,/\,/\
+6,After taking a break you fell better again and continues onwards,Continue,/\,/\,/\,EUH6,/\,/\,/\,/\,/\,/\,/\

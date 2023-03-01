@@ -1,0 +1,171 @@
+[2023-03-01 09:59:36,878] - [INFO] [adventure.dialogue] Loading (Generating character)
+[2023-03-01 09:59:41,446] - [INFO] [adventure.dialogue] [Loading] (('...', '1', '/\\', 0),)
+[2023-03-01 09:59:41,448] - [INFO] [adventure.dialogue] Loading (Generating world)
+[2023-03-01 09:59:45,329] - [INFO] [adventure.dialogue] [Loading] (('...', '2', '/\\', 0),)
+[2023-03-01 09:59:45,331] - [INFO] [adventure.dialogue] Loading (Generating monsters)
+[2023-03-01 10:00:19,738] - [INFO] [adventure.dialogue] [Loading] (('...', '3', '/\\', 0),)
+[2023-03-01 10:00:19,740] - [INFO] [adventure.dialogue] Loading (Generating structures)
+[2023-03-01 10:00:25,292] - [INFO] [adventure.dialogue] [Loading] (('...', '8', '/\\', 0),)
+[2023-03-01 10:00:25,293] - [INFO] [adventure.dialogue] Loaded!
+[2023-03-01 10:00:29,821] - [INFO] [adventure.dialogue] [Loading] (('...', 'ER', '/\\', 0),)
+[2023-03-01 10:00:29,822] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:00:29,822] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:00:29,823] - [INFO] [adventure.dialogue] Code: R
+[2023-03-01 10:00:29,823] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:00:29,824] - [INFO] [adventure.dialogue] Row: {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}
+[2023-03-01 10:00:29,907] - [INFO] [adventure.dialogue] You are travelling down a road. After a while you meet a crossover. Where do you go?
+[2023-03-01 10:04:00,434] - [INFO] [adventure.dialogue] [The Road] (('right', '6', '/\\', 2),)
+[2023-03-01 10:04:00,435] - [INFO] [adventure.dialogue] You continue down right until you reach another crossover. Where do you go?
+[2023-03-01 10:04:12,816] - [INFO] [adventure.dialogue] [The Road] (('right', '7', '/\\', 0),)
+[2023-03-01 10:04:12,817] - [INFO] [adventure.dialogue] Contining down right you find another crossover? Where do you go?
+[2023-03-01 10:06:11,009] - [INFO] [adventure.dialogue] [The Road] (('back', '6', '/\\', 1),)
+[2023-03-01 10:06:11,011] - [INFO] [adventure.dialogue] You continue down right until you reach another crossover. Where do you go?
+[2023-03-01 10:06:19,905] - [INFO] [adventure.dialogue] [The Road] (('down?', '14', '/\\', 1),)
+[2023-03-01 10:06:19,934] - [INFO] [adventure.dialogue] Okay i suppose there is a way down. *Pooooooof* Oh we are here now.
+[2023-03-01 10:06:32,570] - [INFO] [adventure.dialogue] [The Road] (('Yay', 'EUH6', '/\\', 0),)
+[2023-03-01 10:06:32,571] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:06:32,572] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:06:32,572] - [INFO] [adventure.dialogue] Code: UH6
+[2023-03-01 10:06:32,573] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:06:32,573] - [INFO] [adventure.dialogue] Row: {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}
+[2023-03-01 10:06:32,660] - [INFO] [adventure.dialogue] This area is weird for some reason. Evverywhere you look you see yourself. but in a different orientation. Which way do you run towards yourself?
+[2023-03-01 10:06:55,271] - [INFO] [adventure.dialogue] [Underground Hub] (('south', '1', '/\\', 2),)
+[2023-03-01 10:06:55,272] - [INFO] [adventure.dialogue] You run back into the same room which way do you go?
+[2023-03-01 10:07:00,169] - [INFO] [adventure.dialogue] [Underground Hub] (('north', '1', '/\\', 0),)
+[2023-03-01 10:07:00,170] - [INFO] [adventure.dialogue] You run back into the same room which way do you go?
+[2023-03-01 10:07:06,013] - [INFO] [adventure.dialogue] [Underground Hub] (('north', '1', '/\\', 0),)
+[2023-03-01 10:07:06,014] - [INFO] [adventure.dialogue] You run back into the same room which way do you go?
+[2023-03-01 10:07:13,394] - [INFO] [adventure.dialogue] [Underground Hub] (('south', '1', '/\\', 2),)
+[2023-03-01 10:07:13,395] - [INFO] [adventure.dialogue] You run back into the same room which way do you go?
+[2023-03-01 10:07:23,247] - [INFO] [adventure.dialogue] [Underground Hub] (('north', '1', '/\\', 0),)
+[2023-03-01 10:07:23,248] - [INFO] [adventure.dialogue] You run back into the same room which way do you go?
+[2023-03-01 10:07:35,200] - [INFO] [adventure.dialogue] [Underground Hub] (('west', '2', '/\\', 3),)
+[2023-03-01 10:07:35,201] - [INFO] [adventure.dialogue] Running back into yourself you turn around and see that the way you came looks different. Do you head back the way you came or another direction
+[2023-03-01 10:08:11,314] - [INFO] [adventure.dialogue] [Underground Hub] (('back', '3', '/\\', 0),)
+[2023-03-01 10:08:11,315] - [INFO] [adventure.dialogue] Heading back where you came from you run back into the same room but with a gun. Do you pick up this gun?
+[2023-03-01 10:08:32,227] - [INFO] [adventure.dialogue] [Underground Hub] (('yes', '4', '+PGun', 0),)
+[2023-03-01 10:08:32,228] - [INFO] [adventure.dialogue] After picking up the gun the ground shakes and falls. Using the gun you fire at a wall managing to save yourself before you fell too far. Up ahead is a tunnel which you adventure down
+[2023-03-01 10:08:45,220] - [INFO] [adventure.dialogue] [Underground Hub] (('continue', 'ESP1', '/\\', 0),)
+[2023-03-01 10:08:45,221] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:08:45,222] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:08:45,222] - [INFO] [adventure.dialogue] Code: SP1
+[2023-03-01 10:08:45,223] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:08:45,224] - [INFO] [adventure.dialogue] Row: {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}
+[2023-03-01 10:08:45,373] - [INFO] [adventure.dialogue] As you head to the surface you notice it looks very familiar. However there is another path to the side
+[2023-03-01 10:08:57,838] - [INFO] [adventure.dialogue] [Surface] (('head_down_the_new_path', '1', '/\\', 0),)
+[2023-03-01 10:08:57,839] - [INFO] [adventure.dialogue] Heading down the new path you find a steampunk style airship waiting at the end. However on your left and right are two different portals.
+[2023-03-01 10:09:12,635] - [INFO] [adventure.dialogue] [Surface] (('right_portal', 'ESP3', '/\\', 2),)
+[2023-03-01 10:09:12,636] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:09:12,641] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:09:12,643] - [INFO] [adventure.dialogue] Code: SP3
+[2023-03-01 10:09:12,647] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:09:12,649] - [INFO] [adventure.dialogue] Row: {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}
+[2023-03-01 10:09:12,804] - [INFO] [adventure.dialogue] Heading right though this portal. You find that you end up where you just were?
+[2023-03-01 10:09:18,834] - [INFO] [adventure.dialogue] [Surface] (('continue', 'ESP1', '/\\', 0),)
+[2023-03-01 10:09:18,835] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:09:18,836] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:09:18,837] - [INFO] [adventure.dialogue] Code: SP1
+[2023-03-01 10:09:18,838] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:09:18,847] - [INFO] [adventure.dialogue] Row: {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}
+[2023-03-01 10:09:18,941] - [INFO] [adventure.dialogue] As you head to the surface you notice it looks very familiar. However there is another path to the side
+[2023-03-01 10:09:28,323] - [INFO] [adventure.dialogue] [Surface] (('head_down_the_previous_path', 'ER', '/\\', 1),)
+[2023-03-01 10:09:28,324] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:09:28,325] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:09:28,325] - [INFO] [adventure.dialogue] Code: R
+[2023-03-01 10:09:28,326] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:09:28,327] - [INFO] [adventure.dialogue] Row: {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}
+[2023-03-01 10:09:28,337] - [INFO] [adventure.dialogue] You are travelling down a road. After a while you meet a crossover. Where do you go?
+[2023-03-01 10:09:37,081] - [INFO] [adventure.dialogue] [The Road] (('down?', '9', '/\\', 3),)
+[2023-03-01 10:09:37,082] - [INFO] [adventure.dialogue] Okay i suppose there is a way down. *Poof* Oh we are here now.
+[2023-03-01 10:09:44,413] - [INFO] [adventure.dialogue] [The Road] (('Yay', 'EUH1', '/\\', 0),)
+[2023-03-01 10:09:44,414] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:09:44,415] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:09:44,415] - [INFO] [adventure.dialogue] Code: UH1
+[2023-03-01 10:09:44,416] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:09:44,416] - [INFO] [adventure.dialogue] Row: {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}
+[2023-03-01 10:09:44,536] - [INFO] [adventure.dialogue] The underground place contains some items for you. Which do you pick up first?
+[2023-03-01 10:09:57,566] - [INFO] [adventure.dialogue] [Underground Hub] (('Armor', '4', '+BArmor', 3),)
+[2023-03-01 10:09:57,566] - [INFO] [adventure.dialogue] After picking up the armor the floor disappears and you fall to your depth. Dying in the process.
+[2023-03-01 10:10:09,312] - [INFO] [adventure.dialogue] [Underground Hub] (('respawn', 'EL', '+D', 0),)
+[2023-03-01 10:10:09,313] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:10:09,314] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:10:09,315] - [INFO] [adventure.dialogue] Code: L
+[2023-03-01 10:10:09,315] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:10:09,316] - [INFO] [adventure.dialogue] Row: {'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}
+[2023-03-01 10:10:09,409] - [INFO] [adventure.dialogue] Loading (Generating character)
+[2023-03-01 10:10:10,557] - [INFO] [adventure.dialogue] [Loading] (('...', '1', '/\\', 0),)
+[2023-03-01 10:10:10,559] - [INFO] [adventure.dialogue] Loading (Generating world)
+[2023-03-01 10:10:14,978] - [INFO] [adventure.dialogue] [Loading] (('...', '2', '/\\', 0),)
+[2023-03-01 10:10:14,978] - [INFO] [adventure.dialogue] Loading (Generating monsters)
+[2023-03-01 10:10:20,851] - [INFO] [adventure.dialogue] [Loading] (('...', '3', '/\\', 0),)
+[2023-03-01 10:10:20,851] - [INFO] [adventure.dialogue] Loading (Generating structures)
+[2023-03-01 10:10:24,622] - [INFO] [adventure.dialogue] [Loading] (('...', '8', '/\\', 0),)
+[2023-03-01 10:10:24,624] - [INFO] [adventure.dialogue] Loaded!
+[2023-03-01 10:10:40,931] - [INFO] [adventure.dialogue] [Loading] (('...', 'ER', '/\\', 0),)
+[2023-03-01 10:10:40,932] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:10:40,933] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:10:40,934] - [INFO] [adventure.dialogue] Code: R
+[2023-03-01 10:10:40,934] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:10:40,935] - [INFO] [adventure.dialogue] Row: {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}
+[2023-03-01 10:10:40,945] - [INFO] [adventure.dialogue] You are travelling down a road. After a while you meet a crossover. Where do you go?
+[2023-03-01 10:10:49,222] - [INFO] [adventure.dialogue] [The Road] (('down?', '9', '/\\', 3),)
+[2023-03-01 10:10:49,223] - [INFO] [adventure.dialogue] Okay i suppose there is a way down. *Poof* Oh we are here now.
+[2023-03-01 10:10:54,599] - [INFO] [adventure.dialogue] [The Road] (('Yay', 'EUH1', '/\\', 0),)
+[2023-03-01 10:10:54,600] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:10:54,601] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:10:54,602] - [INFO] [adventure.dialogue] Code: UH1
+[2023-03-01 10:10:54,602] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:10:54,603] - [INFO] [adventure.dialogue] Row: {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}
+[2023-03-01 10:10:54,617] - [INFO] [adventure.dialogue] The underground place contains some items for you. Which do you pick up first?
+[2023-03-01 10:11:00,788] - [INFO] [adventure.dialogue] [Underground Hub] (('Shield', '6', '+BShield', 2),)
+[2023-03-01 10:11:00,790] - [INFO] [adventure.dialogue] After picking up the shield... nothing happens. Pick up another item or move on?
+[2023-03-01 10:11:06,716] - [INFO] [adventure.dialogue] [Underground Hub] (('Sword', '7', '+BShield', 1),)
+[2023-03-01 10:11:06,717] - [INFO] [adventure.dialogue] After picking up the sword... nothing happens. Pick up another item or move on?
+[2023-03-01 10:11:12,736] - [INFO] [adventure.dialogue] [Underground Hub] (('Potion', '8', '+BPotion', 1),)
+[2023-03-01 10:11:12,737] - [INFO] [adventure.dialogue] After picking up the potion... nothing happens. Pick up another item or move on?
+[2023-03-01 10:11:18,935] - [INFO] [adventure.dialogue] [Underground Hub] (('Armor', '9', '+BArmor', 1),)
+[2023-03-01 10:11:18,936] - [INFO] [adventure.dialogue] After picking up the armor... nothing happens. Wow you picked up everything without any negative effects!
+[2023-03-01 10:11:25,405] - [INFO] [adventure.dialogue] [Underground Hub] (('move_on', 'EWT', '/\\', 0),)
+[2023-03-01 10:11:25,406] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:11:25,407] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:11:25,408] - [INFO] [adventure.dialogue] Code: WT
+[2023-03-01 10:11:25,409] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:11:25,410] - [INFO] [adventure.dialogue] Row: {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}
+[2023-03-01 10:11:25,545] - [INFO] [adventure.dialogue] This area is unknown even to use. I highly recommend against exploring it.
+[2023-03-01 10:11:33,745] - [INFO] [adventure.dialogue] [What's this?] (('explore', '1', '/\\', 1),)
+[2023-03-01 10:11:33,746] - [INFO] [adventure.dialogue] You want to explore it? Are you sure??
+[2023-03-01 10:11:39,937] - [INFO] [adventure.dialogue] [What's this?] (('yes', '2', '/\\', 0),)
+[2023-03-01 10:11:39,939] - [INFO] [adventure.dialogue] Ok fine you can explore it. We can't help you however
+[2023-03-01 10:11:44,526] - [INFO] [adventure.dialogue] [What's this?] (('continue', '3', '/\\', 0),)
+[2023-03-01 10:11:44,527] - [INFO] [adventure.dialogue] *As you advance forward you map the landscape around you. Soon enough you encounter a crossroaad.*
+[2023-03-01 10:11:53,377] - [INFO] [adventure.dialogue] [What's this?] (('left', '4', '/\\', 0),)
+[2023-03-01 10:11:53,378] - [INFO] [adventure.dialogue] *Heading left you map more information about the surroundings. You find a poor creature.*
+[2023-03-01 10:12:03,341] - [INFO] [adventure.dialogue] [What's this?] (('help', '5', '/\\', 0),)
+[2023-03-01 10:12:03,342] - [INFO] [adventure.dialogue] *After helping the creature to saftey and fighting the demon nearby you carry onwards letting the creature rest.*
+[2023-03-01 10:12:10,488] - [INFO] [adventure.dialogue] [What's this?] (('carry_on_exploring', '6', '/\\', 0),)
+[2023-03-01 10:12:10,490] - [INFO] [adventure.dialogue] *Carring on you meet an enemy who traps you up in a cage.* What have we here little one
+[2023-03-01 10:12:17,590] - [INFO] [adventure.dialogue] [What's this?] (('attempt_to_break_out', '7', '+D', 0),)
+[2023-03-01 10:12:17,628] - [INFO] [adventure.dialogue] Did you think that you could defeat me?
+[2023-03-01 10:12:21,979] - [INFO] [adventure.dialogue] [What's this?] (('yes', '8', '/\\', 0),)
+[2023-03-01 10:12:21,980] - [INFO] [adventure.dialogue] But now that i've caught you in this cage nothing you can say will change your fate.
+[2023-03-01 10:13:01,621] - [INFO] [adventure.dialogue] [What's this?] (('wait', '9', '+D', 0),)
+[2023-03-01 10:13:01,622] - [INFO] [adventure.dialogue] *The creature we saved eariler came and helped with an entire army*
+[2023-03-01 10:13:08,544] - [INFO] [adventure.dialogue] [What's this?] (('defeat_monster', '10', '/\\', 0),)
+[2023-03-01 10:13:08,545] - [INFO] [adventure.dialogue] *Do you know who we a-are!? a-are!?*
+[2023-03-01 10:15:33,276] - [INFO] [adventure.dialogue] [What's this?] (('finish_defeating_monster', '11', '/\\', 0),)
+[2023-03-01 10:15:33,277] - [INFO] [adventure.dialogue] *After defeating the monster the group of creatures follows me. On the way out we see some text on a wall: Nightmares by @comfibeats and @StaticP*
+[2023-03-01 10:16:10,247] - [INFO] [adventure.dialogue] [What's this?] (('continue', 'ESP1', '+Creature', 0),)
+[2023-03-01 10:16:10,248] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:16:10,249] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:16:10,251] - [INFO] [adventure.dialogue] Code: SP1
+[2023-03-01 10:16:10,251] - [INFO] [adventure.dialogue] Found place!
+[2023-03-01 10:16:10,252] - [INFO] [adventure.dialogue] Row: {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}
+[2023-03-01 10:16:10,275] - [INFO] [adventure.dialogue] As you head to the surface you notice it looks very familiar. However there is another path to the side
+[2023-03-01 10:16:18,360] - [INFO] [adventure.dialogue] [Surface] (('head_down_the_new_path', '1', '/\\', 0),)
+[2023-03-01 10:16:18,361] - [INFO] [adventure.dialogue] Heading down the new path you find a steampunk style airship waiting at the end. However on your left and right are two different portals.
+[2023-03-01 10:16:26,179] - [INFO] [adventure.dialogue] [Surface] (('steampunk_style_airship', '2', '/\\', 1),)
+[2023-03-01 10:16:26,181] - [INFO] [adventure.dialogue] Heading onto the steampunk style airship you get greeted with welcoming andyou get to live out the rest of your journey on the steampunk style airship as you head back to base
+[2023-03-01 10:16:34,453] - [INFO] [adventure.dialogue] [Surface] (('end', 'E!', '/\\', 0),)
+[2023-03-01 10:16:34,454] - [INFO] [adventure.dialogue] End of chapter, going to next chapter!
+[2023-03-01 10:16:34,456] - [INFO] [adventure.dialogue] Chapters: {'header': ['Code', 'Chapter', 'Location'], 'row': [{'Code': 'L', 'Chapter': 'Loading', 'Location': 'Adventure/loading.csv'}, {'Code': 'R', 'Chapter': 'The Road', 'Location': 'Adventure/Road.csv'}, {'Code': 'UH1', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub1.csv'}, {'Code': 'UH2', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub2.csv'}, {'Code': 'UH3', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub3.csv'}, {'Code': 'UH4', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub4.csv'}, {'Code': 'UH5', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub5.csv'}, {'Code': 'UH6', 'Chapter': 'Underground Hub', 'Location': 'Adventure/UH/UnderHub6.csv'}, {'Code': 'WT', 'Chapter': "What's this?", 'Location': 'Adventure/Thedepths/WT.csv'}, {'Code': 'H', 'Chapter': 'The hole', 'Location': 'Adventure/Thedepths/Hole.csv'}, {'Code': 'SP1', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal1.csv'}, {'Code': 'SP2', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal2.csv'}, {'Code': 'SP3', 'Chapter': 'Surface', 'Location': 'Adventure/Surface/SurfacePortal3.csv'}]}
+[2023-03-01 10:16:34,457] - [INFO] [adventure.dialogue] Code: !

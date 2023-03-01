@@ -1,0 +1,30 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,The underground place contains some items for you. Which do you pick up first?,Sword,Potion,Shield,Armor,1,5,6,4,+BSword,+BPotion,+BShield,+BArmor
+1,After picking up the sword the ground shakes below you. Do you pick up another item or run?,run,Potion,Shield,Armor,10,2,11,12,/\,+BPotion,+BShield,+BArmor
+2,After picking up the potion... nothing happens. Pick up another item or move on?,move on,Shield,Armor,/\,13,3,14,/\,/\,+BShield,+BArmor,/\
+3,After picking up the shield a huge rock falls down blocking your only currently visible exit. Do you move on or pick up another item?,move on,Armor,/\,/\,15,4,/\,/\,/\,+BArmor,/\,/\
+4,After picking up the armor the floor disappears and you fall to your depth. Dying in the process.,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+5,After picking up the potion... You fall to your death.,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+6,After picking up the shield... nothing happens. Pick up another item or move on?,move on,Sword,Potion,Armor,17,7,16,20,/\,+BShield,+BPotion,+BArmor
+7,After picking up the sword... nothing happens. Pick up another item or move on?,move on,Potion,Armor,/\,18,8,12,/\,/\,+BPotion,+BArmor,/\
+8,After picking up the potion... nothing happens. Pick up another item or move on?,move on,Armor,/\,/\,19,9,/\,/\,/\,+BArmor,/\,/\
+9,After picking up the armor... nothing happens. Wow you picked up everything without any negative effects!,move on,/\,/\,/\,EWT,/\,/\,/\,/\,/\,/\,/\
+10,You decided to run to get to saftey. As you were running you fall down a hole and become unconscious,wake up,/\,/\,/\,EH,/\,/\,/\,/\,/\,/\,/\
+11,After picking up the shield you descover how heavy it is causing you to not be able to move. Leave it here? Pick up another item? try and move?,leave shield,take potion,try to move,take armor,1,21,23,12,-BShield,+BPotion,/\,+BArmor
+12,The armor you picked up is sooo heavy that you trap yourself. There is no way in and no way out. You die after a couple of painful days.,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+13,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,2,EWT,/\,/\,/\,/\,/\,/\
+14,After picking up the armor... nothing happens! Pick up another item or move on?,move on,Shield,/\,/\,24,25,/\,/\,/\,+BShield,/\,/\
+15,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,3,EWT,/\,/\,/\,/\,/\,/\
+16,The potion applies the effects as soon as you touch it. Apparently this time you didn't have the protecting so it killed you...,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+17,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,6,EWT,/\,/\,/\,/\,/\,/\
+18,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,7,EWT,/\,/\,/\,/\,/\,/\
+19,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,8,EWT,/\,/\,/\,/\,/\,/\
+20,After picking up the armor... wait what? It's not there??? hu? *Narrator.py has stoped working*,move on,/\,/\,/\,EWT,/\,/\,/\,/\,/\,/\,/\
+21,Drink the potion now or later?,now,later,/\,/\,22,23,/\,/\,-BPotion,/\,/\,/\
+22,Drinking the potion now made everything so much easier to carry! Attempt to take the armor or move on?,move on,take armor,/\,/\,26,27,/\,/\,/\,+BArmor,/\,/\
+23,You can't pick up anything else without not being able to move. Do you drink the potion? Or leave the armor behind?,drink potion,leave armor,/\,/\,22,28,/\,/\,-BPotion,/\,/\,/\
+24,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,8,EWT,/\,/\,/\,/\,/\,/\
+25,picking up the shield causes the ground below you to shake even more and give way. Making you fall down to a safe place?,get up,/\,/\,/\,EWT,/\,/\,/\,/\,/\,/\,/\
+26,You move onwards with your items soon encountering some issues. If you want you can go back and get more stuff or carry on forwards.,Get more stuff,Carry on forwards,/\,/\,8,EWT,/\,/\,/\,/\,/\,/\
+27,Apparently the armor stops the potion from working causing everything to be heavy again. You have to leave the armor behind.,continue onwards,/\,/\,/\,EWT,/\,/\,/\,/\,/\,/\,/\
+28,Leaving the armor you continue on forwards eventually finding a hole,jump down,/\,/\,/\,EH,/\,/\,/\,/\,/\,/\,/\

@@ -1,0 +1,22 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,This area is unknown even to use. I highly recommend against exploring it.,go back,explore,/\,/\,ER,1,/\,/\,/\,/\,/\,/\
+1,You want to explore it? Are you sure??,yes,no,/\,/\,2,0,/\,/\,/\,/\,/\,/\
+2,Ok fine you can explore it. We can't help you however,continue,/\,/\,/\,3,/\,/\,/\,/\,/\,/\,/\
+3,*As you advance forward you map the landscape around you. Soon enough you encounter a crossroaad.*,left,forward,right,/\,4,12,13,/\,/\,/\,/\,/\
+4,*Heading left you map more information about the surroundings. You find a poor creature.*,help,leave,/\,/\,5,15,/\,/\,/\,/\,/\,/\
+5,*After helping the creature to saftey and fighting the demon nearby you carry onwards letting the creature rest.*,carry on exploring,leave the cave,/\,/\,6,18,/\,/\,/\,/\,/\,/\
+6,*Carring on you meet an enemy who traps you up in a cage.* What have we here little one,attempt to break out,do nothing,respawn manually,/\,7,7,EL,/\,+D,/\,/\,/\
+7,Did you think that you could defeat me?,yes,no,/\,/\,8,19,/\,/\,/\,/\,/\,/\
+8,But now that i've caught you in this cage nothing you can say will change your fate.,wait,respawn,/\,/\,9,EL,/\,/\,+D,/\,/\,/\
+9,*The creature we saved eariler came and helped with an entire army*,defeat monster,run away,/\,/\,10,20,/\,/\,/\,/\,/\,/\
+10,*Do you know who we a-are!? a-are!?*,finish defeating monster,/\,/\,/\,11,/\,/\,/\,/\,/\,/\,/\
+11,*After defeating the monster the group of creatures follows me. On the way out we see some text on a wall: Nightmares by @comfibeats and @StaticP*,continue,/\,/\,/\,ESP1,/\,/\,/\,+Creature,/\,/\,/\
+12,*Heading forward you head back out to the ground level way higher than you are now.*,continue,/\,/\,/\,ER,/\,/\,/\,/\,/\,/\,/\
+13,*Heading right you see another pit*,go down,go back,/\,/\,3,14,/\,/\,/\,/\,/\,/\
+14,*Heading down into the pit you eventually find a wall of spikes. You try to escape but all of your entrences are blocked up. Leaving you to die*,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+15,*Leaving the creature behind you head forward eventually finding a new room*,explore,turn back,/\,/\,16,4,/\,/\,/\,/\,/\,/\
+16,I spy with my big red eyes. A feast for me in youthful splendor.,run,die,/\,/\,17,17,/\,/\,/\,/\,/\,\/
+17,*As you are trapped you failed to run eventually being eaten alive*,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+18,*Leaving the cave you head back up to the surface although with a portal behind you*,continue,/\,/\,/\,ESP1,/\,/\,/\,/\,/\,/\,/\
+19,Good but why break the song lyrics? Die,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+20,*Although you try to run away there is no way to run leavig you to fight the monster*,fight,/\,/\,/\,10,/\,/\,/\,/\,/\,/\,/\

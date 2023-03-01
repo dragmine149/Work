@@ -1,0 +1,14 @@
+Code,Chapter,Location
+L,Loading,Adventure/loading.csv
+R,The Road,Adventure/Road.csv
+UH1,Underground Hub,Adventure/UH/UnderHub1.csv
+UH2,Underground Hub,Adventure/UH/UnderHub2.csv
+UH3,Underground Hub,Adventure/UH/UnderHub3.csv
+UH4,Underground Hub,Adventure/UH/UnderHub4.csv
+UH5,Underground Hub,Adventure/UH/UnderHub5.csv
+UH6,Underground Hub,Adventure/UH/UnderHub6.csv
+WT,What's this?,Adventure/Thedepths/WT.csv
+H,The hole,Adventure/Thedepths/Hole.csv
+SP1,Surface,Adventure/Surface/SurfacePortal1.csv
+SP2,Surface,Adventure/Surface/SurfacePortal2.csv
+SP3,Surface,Adventure/Surface/SurfacePortal3.csv

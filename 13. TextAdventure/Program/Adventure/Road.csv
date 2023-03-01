@@ -1,0 +1,16 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,You are travelling down a road. After a while you meet a crossover. Where do you go?,forward,left,right,down?,5,1,6,9,/\,/\,/\,/\
+1,You continue down left until you reach another crossover. Where do you go?,left,down?,back,/\,2,10,0,/\,/\,/\,/\,/\
+2,Contining down left you find another crossover? Where do you go?,left,back,down?,/\,3,1,11,/\,/\,/\,/\,/\
+3,Why do you keep going left? Okay another crossover you know what to do.,left,back,down?,/\,4,2,12,/\,/\,/\,/\,/\
+4,Well done you are back at the start...,...,/\,/\,/\,0,/\,/\,/\,/\,/\,/\,/\
+5,You continue down forward until you reach a dead end... Why is there a dead end here?,back,/\,/\,/\,0,/\,/\,/\,/\,/\,/\,/\
+6,You continue down right until you reach another crossover. Where do you go?,right,down?,back,/\,7,14,1,/\,/\,/\,/\,/\
+7,Contining down right you find another crossover? Where do you go?,right,back,down?,/\,8,6,13,/\,/\,/\,/\,/\
+8,Why do you keep going right? Okay another crossover you know what to do.,right,back,down?,/\,4,7,12,/\,/\,/\,/\,/\
+9,Okay i suppose there is a way down. *Poof* Oh we are here now.,Yay,/\,/\,/\,EUH1,/\,/\,/\,/\,/\,/\,/\
+10,Okay i suppose there is a way down. *Pooof* Oh we are here now.,Yay,/\,/\,/\,EUH2,/\,/\,/\,/\,/\,/\,/\
+11,Okay i suppose there is a way down. *Poooof* Oh we are here now.,Yay,/\,/\,/\,EUH3,/\,/\,/\,/\,/\,/\,/\
+12,Okay i suppose there is a way down. *Pooooof* Oh we are here now.,Yay,/\,/\,/\,EUH4,/\,/\,/\,/\,/\,/\,/\
+13,Okay i suppose there is a way down. *Poooooof* Oh we are here now.,Yay,/\,/\,/\,EUH5,/\,/\,/\,/\,/\,/\,/\
+14,Okay i suppose there is a way down. *Pooooooof* Oh we are here now.,Yay,/\,/\,/\,EUH6,/\,/\,/\,/\,/\,/\,/\

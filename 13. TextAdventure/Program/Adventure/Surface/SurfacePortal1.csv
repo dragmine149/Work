@@ -1,0 +1,4 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,As you head to the surface you notice it looks very familiar. However there is another path to the side,head down the new path,head down the previous path,/\,/\,1,ER,/\,/\,/\,/\,/\,/\
+1,Heading down the new path you find a steampunk style airship waiting at the end. However on your left and right are two different portals.,left portal,steampunk style airship,right portal,/\,ESP2,2,ESP3,/\,/\,/\,/\,/\
+2,Heading onto the steampunk style airship you get greeted with welcoming andyou get to live out the rest of your journey on the steampunk style airship as you head back to base,end,/\,/\,/\,E!,/\,/\,/\,/\,/\,/\,/\

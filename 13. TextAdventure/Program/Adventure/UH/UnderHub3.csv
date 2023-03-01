@@ -1,0 +1,31 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,Okay this is weird... I appear to be trapped here...,die,wait,/\,/\,EL,1,/\,/\,+D,/\,/\,/\
+1,Waiting...,die,wait,/\,/\,EL,2,/\,/\,+D,/\,/\,/\
+2,Waiting...,die,wait,/\,/\,EL,3,/\,/\,+D,/\,/\,/\
+3,Waiting...,die,wait,/\,/\,EL,4,/\,/\,+D,/\,/\,/\
+4,Waiting...,die,wait,/\,/\,EL,5,/\,/\,+D,/\,/\,/\
+5,Suddenly something opens out of the wall. It looks like a secret passage somewhere.,explore,die,wait,/\,EUH5,EL,6,/\,/\,+D,/\,/\
+6,The secret passage closes.,die,wait,/\,/\,EL,7,/\,/\,+D,/\,/\,/\
+7,Waiting...,die,wait,/\,/\,EL,8,/\,/\,+D,/\,/\,/\
+8,Waiting...,die,wait,/\,/\,EL,9,/\,/\,+D,/\,/\,/\
+9,Waiting...,die,wait,/\,/\,EL,10,/\,/\,+D,/\,/\,/\
+10,Waiting...,die,wait,/\,/\,EL,11,/\,/\,+D,/\,/\,/\
+11,Suddenly another passage comes out of the wall. You are unable to make out what is down the passage.,explore,die,wait,/\,EUH3,EL,12,/\,/\,+D,/\,/\
+12,The passage closes.,die,wait,/\,/\,EL,13,/\,/\,+D,/\,/\,/\
+13,Waiting...,die,wait,/\,/\,EL,14,/\,/\,+D,/\,/\,/\
+14,Waiting...,die,wait,/\,/\,EL,15,/\,/\,+D,/\,/\,/\
+15,Waiting...,die,wait,/\,/\,EL,16,/\,/\,+D,/\,/\,/\
+16,Waiting...,die,wait,/\,/\,EL,17,/\,/\,+D,/\,/\,/\
+17,Suddenly a portal opens up in the wall. It seems to show the surface,go through,die,wait,/\,ESP1,EL,18,/\,/\,+D,/\,/\
+18,The portal closes leaving you in darkness.,die,wait,/\,/\,EL,19,/\,/\,+D,/\,/\,/\
+19,Waiting...,die,wait,/\,/\,EL,20,/\,/\,+D,/\,/\,/\
+20,Waiting...,die,wait,/\,/\,EL,21,/\,/\,+D,/\,/\,/\
+21,Waiting...,die,wait,/\,/\,EL,22,/\,/\,+D,/\,/\,/\
+22,Waiting...,die,wait,/\,/\,EL,23,/\,/\,+D,/\,/\,/\
+23,Suddenly the walls start to grow spikes? However another passage opens up. This time it seems to take you back to the start,go through,die,wait,/\,ER,EL,24,/\,/\,+D,/\,/\
+24,As the passage closes the spkies on the walls grow bigger,escape,die,wait,/\,ER,EL,25,/\,/\,+D,/\,/\
+25,Waiting...,die,wait,/\,/\,EL,26,/\,/\,+D,/\,/\,/\
+26,Waiting...,die,wait,/\,/\,EL,27,/\,/\,+D,/\,/\,/\
+27,Waiting...,die,wait,/\,/\,EL,28,/\,/\,+D,/\,/\,/\
+28,Waiting...,die,wait,/\,/\,EL,29,/\,/\,+D,/\,/\,/\
+29,The spikes grow so big that you die in the room,respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\

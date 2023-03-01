@@ -1,0 +1,19 @@
+Index,Question,answer1,answer2,answer3,answer4,location1,location2,location3,location4,effect1,effect2,effect3,effect4
+0,You enter the room after exploring for a while you spot the altar sitting in the middle of the room. As you are about to go explore the altar you hear footsteps in the distance.,hide,explore,run,prepare to fight,1,16,6,17,/\,/\,/\,!
+1,You hide behind a bush sitting in the corner of the room. The footsteps sound gets louder.,stay hidden,make a run for it,/\,/\,2,6,/\,/\,/\,/\,/\,/\
+2,As you stay hidden in the bush a person comes in and throws a table into your bush. The table forces you stuck inside the bush.,carry on watching,/\,/\,/\,3,/\,/\,/\,/\,/\,/\,/\
+3,As you watch thoguh the bush you see the person do a !strainge! spell which you can't decyper just yet. After a while they disappear,Leave hidden spot,Write down spell (As best as possible),Stay hidden,/\,6,4,5,/\,/\,+TeleportSpell,/\,/\
+4,You write down the spell for futher use. It's been 10 minutes since that person disappeared. Do you leave or stay hidden?,Leave,Stay hidden,/\,/\,6,5,/\,/\,/\,/\,/\,/\
+5,You stay hidden in the bush for another hour. Nothing changes you decide to leave the room and head where?,north,east,south,west,EUH1,EUH6,EUH2,EUH4,/\,/\,/\,/\
+6,You decide to leave the room by heading,north,east,south,west,EUH1,EUH6,EUH2,EUH4,/\,/\,/\,/\
+7,You take your chances and explore the altar by just touching it you are frozen in place,try and break away,accept defeat,wait,/\,8,12,13,/\,+Ghost,+Ghost,+Ghost,/\
+8,After attempting to break away for a while you fell lighter and break away however there is a person,do nothing,run,say hi,/\,9,14,15,/\,/\,/\,/\,/\
+9,As you do nothing they continue though the room not interacting with you at all.,shout out,follow them,explore,/\,10,11,16,/\,/\,/\,/\,/\
+10,You shout out at them to no avail they leave you alone.,Follow them,Head up,/\,/\,11,ESP1,/\,/\,/\,/\,/\,/\
+11,You loose track of them as you enter a new room.,Continue,/\,/\,/\,EUH6,/\,/\,/\,/\,/\,/\,/\
+12,You accept the fact that you are stuck there forever. No-one comes along that passage and you are left to die...,Respawn,/\,/\,/\,EL,/\,/\,/\,+D,/\,/\,/\
+13,You wait by the altar still stuck a person comes and frees you somehow. You thank them and part ways,head north,head east,head south,head west,EUH1,EUH6,EUH2,EUH4,/\,/\,/\,/\
+14,You run not knowing where you are going head to another passage,continue,/\,/\,/\,EUH3,/\,/\,/\,/\,/\,/\,/\
+15,You say hi to the person they do not head you and do not respond. Soon afterwards the altar teleports you somewhere,continue,/\,/\,/\,ESP1,/\,/\,/\,/\,/\,/\,/\
+16,Exploring the room you find four directions to go,head north,head east,head south,head west,EUH1,EUH6,EUH2,EUH4,/\,/\,/\,/\
+17,As you perpare to attack nothing comes in the room...,explore room,/\,/\,/\,16,/\,/\,/\,/\,/\,/\,/\
