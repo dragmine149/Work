@@ -29,7 +29,7 @@ class Main(Templates.main):
         self.dayFrame = self.ui.CreateFrame()
         
         self.ui.AddLabel("Time Table", 0, 0, frame=self.dayFrame)
-        self.ui.AddButton("Back", self.Back, 1, 0, frame=self.dayFrame)
+        self.ui.AddButton("Back", self.Back, 1, 0, frame=self.dayFrame, callbackArgs=False)
         self.ui.AddButton("Monday", self.ChangeDay, 2, 0, frame=self.dayFrame)
         self.ui.AddButton("Tuesday", self.ChangeDay, 3, 0, frame=self.dayFrame)
         self.ui.AddButton("Wednesday", self.ChangeDay, 4, 0, frame=self.dayFrame)
@@ -118,7 +118,7 @@ class Main(Templates.main):
         self.roomVar.set(f"Room: {rm}")
         self.teacherVar.set(f"Teacher: {tc}")
     
-    def Back(self, _):
+    def Back(self):
         """Go back to main menu
         """
         self.ChangeView(False)
@@ -151,5 +151,5 @@ class Main(Templates.main):
         self.ChangeView()
         
 
-def load(ui):
-    return Main(ui)
+def load(main):
+    return Main(main)
