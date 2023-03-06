@@ -1,0 +1,10 @@
+index,data,yes,no
+0,Is it a mammal?,1,2
+1,Does it have stripes?,5,4
+2,Is it a bird?,3,8
+3,Does it fly?,6,7
+4,lion,-1,-1
+5,zebra,-1,-1
+6,eagle,-1,-1
+7,penguin,-1,-1,
+8,fish,-1,-1
